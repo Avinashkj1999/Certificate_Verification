@@ -1,0 +1,145 @@
+.certificate-container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.column-is-three-quarters-tablet{
+    width: 60%;
+}
+.column-is-one-quarters-tablet{
+    width: 20%;
+}
+.certificate-bg{
+    width: 100%;
+    position: relative;
+    
+}
+.certificate-bg img{
+    width: 100%;
+    height: 200%;
+    border-radius: 20px;   
+}
+.credential-hero-background-inner{
+    width: 90%;
+    position: absolute;
+    top: 42%;
+    left: 41%;
+    transform: translate(-40%, -40%);
+    height: 80%;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.Logo {
+    display: flex;
+    justify-content: flex-start;
+    height: 50px;
+    width: 100%;
+    margin-top: 30px;
+}
+.credential-hero-body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-block: auto;
+}
+
+.credential-hero-body h3{
+    margin: 0px;
+}
+
+.credential-hero-body p{
+    margin: 3px;
+}
+
+.Certificate_Information p{
+    width: 100%;
+}
+
+.credential-hero-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+    margin-block: 10px;
+    width: 90%;
+}
+
+.Certificate_Information {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Certificate_Information p{
+    margin: 10px;
+    font-size: 0.75rem;
+}
+
+.courselogo {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.courselogoimage {
+    width: 100%;
+    height: 100%;
+}
+.courselogoimage img{
+    height: 100%;
+    object-fit: scale-down;
+}
+
+.signature {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+.courselogoimg {
+    width: 60%;
+    padding: 20px;
+}
+ol.list-style-none {
+    list-style: none;
+}
+.CertificatecredentialsInformation{
+    padding: 10px 0px;
+    border-bottom: inset;
+}
+
+
+
+@media (max-width: 864px) {
+    /* Styles for smaller screens */
+    .certificate-container {
+        flex-direction: column; /* Stack elements vertically on small screens */
+    }
+    
+}
+
+@media screen and (min-width: 768px) {
+    .credential-hero-footer {
+        padding: 1.5rem !important;
+    }
+}
